@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .clay-card {
+    @apply bg-[#e0e5ec] shadow-[8px_8px_16px_#b8b9be,-8px_-8px_16px_#ffffff] rounded-2xl;
+  }
+  .clay-inset {
+    @apply shadow-[inset_6px_6px_12px_#b8b9be,inset_-6px_-6px_12px_#ffffff];
+  }
+}
